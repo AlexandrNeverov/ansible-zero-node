@@ -35,3 +35,45 @@ This is ideal for:
 
 > All operations are performed through CLI and AWS APIs. No manual interaction after launch. Ideal for repeatable cloud automation workflows.
 > All actions are performed via CLI using official AWS APIs and require only existing access credentials with IAM privileges.
+
+## 🚀 Quick Start
+
+1. Launch EC2 with admin IAM role via AWS CLI:
+```bash
+curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs/heads/main/boot/create_zero_node_aws.sh | bach -
+```
+
+2. Launch EC2 with admin IAM role via AWS CLI:
+```bash
+curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs/heads/main/boot/setup_zero_node_tools.sh | bach -
+```
+
+3. Installing HCL-Vault:
+```bash
+curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs/heads/main/boot/hcl_vault.sh | bach -
+```
+
+4. Installing Ansible:
+```bash
+curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs/heads/main/boot/setup_zero_ansible.sh| bach -
+```
+
+---
+
+## 📄 License
+
+MIT – free to use, modify, share.
+
+---
+
+## 👨‍💻 Author
+
+**Alex Neverov**  
+Platform Engineer · DevOps Engineer · Cloud & Infrastructure Automation · Industry PhD
+
+- **GitHub:** [AlexandrNeverov](https://github.com/AlexandrNeverov)  
+- **LinkedIn:** [linkedin.com/in/alexneverov](https://www.linkedin.com/in/alexneverov)  
+- **Upwork:** [upwork.com/freelancers/~01c616035669bbf379](https://www.upwork.com/freelancers/~01c616035669bbf379)  
+- **Website:** [neverov-it.com](https://neverov-it.com) · [neverov-science.com](https://neverov-science.com)  
+- **Email:** [alex@neverov-it.com](mailto:alex@neverov-it.com) · [nev.al.vic@gmail.com](mailto:nav.al.vic@.com)
+- **Phone:** +1 (754) 236‑5715
