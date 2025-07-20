@@ -55,7 +55,7 @@ curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs
 
 4. Installing Ansible:
 ```bash
-curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs/heads/main/boot/setup_zero_ansible.sh| bach -
+curl -v https://raw.githubusercontent.com/AlexandrNeverov/ansible-zero-node/refs/heads/main/boot/setup_zero_ansible.sh | bach -
 ```
 
 ---
